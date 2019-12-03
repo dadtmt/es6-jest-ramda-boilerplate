@@ -8,7 +8,7 @@
     "lint": "npx eslint --fix *.js src test",
     "precommit": "lint-staged && npm test",
     "start": "nodemon --exec ./node_modules/@babel/node/bin/babel-node.js src/index",
-    "test": "jest"
+    "test": "jest --watch"
   },
   "repository": {
     "type": "git",
