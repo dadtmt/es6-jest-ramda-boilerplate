@@ -27,7 +27,9 @@
     "@babel/preset-env": "^7.7.4",
     "eslint": "^6.7.2",
     "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
     "jest": "^24.9.0",
     "lint-staged": "^9.5.0",
     "nodemon": "^2.0.1",
@@ -36,8 +38,9 @@
   },
   "lint-staged": {
     "**/*.js": [
-      "npm lint",
+      "npm run lint",
       "git add"
     ]
-  }
+  },
+  "dependencies": {}
 }
