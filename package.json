@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx babel src -d build",
-    "lint": "npx eslint --fix *.js src test",
+    "lint": "npx eslint 'src/**/*.js'",
     "precommit": "lint-staged && npm test",
     "start": "nodemon --exec ./node_modules/@babel/node/bin/babel-node.js src/index",
     "test": "jest --watch"
