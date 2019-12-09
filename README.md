@@ -22,7 +22,7 @@
 2. Duplicate this repository
 ```bash
 git clone --bare git@github.com:WildCodeSchool/js-exercises-boilerplate.git
-cd js-exercises-boilerplate
+cd js-exercises-boilerplate.git
 git push --mirror git@github.com:WildCodeSchool/new-exercises
 ```
 ### Create your exercises
