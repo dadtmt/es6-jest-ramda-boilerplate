@@ -1,3 +1,3 @@
-const hello = firstName => `Hello ${firstName}`;
+const hello = firstName => `Hello ${firstName}`
 
-export default hello;
+export default hello
