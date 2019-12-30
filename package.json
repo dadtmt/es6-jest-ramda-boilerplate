@@ -47,5 +47,7 @@
       "git add"
     ]
   },
-  "dependencies": {}
+  "dependencies": {
+    "ramda": "^0.26.1"
+  }
 }
